@@ -31,6 +31,23 @@ The project contains the following files:
 |   |- dog.js
 |
 |- package.json
+|- jsconfig.json
+```
+
+*jsconfig.json* explanation
+```js
+{
+    "compilerOptions": {
+        // Compile to ES6
+        "target": "es6",
+        // Use ES6 modules
+        "module": "es6"
+    },
+    "exclude": [
+        "node_modules",
+        "lib"
+    ]
+}
 ```
 
 *package.json* explanation
