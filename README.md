@@ -8,9 +8,22 @@ Have fun!
 
 # Setup
 
+Clone the repository using Git clone  
+```git
+$ git clone https://github.com/jjherscheid/es6-babel-startup.git
+```
+
+Run Npm install, this will install babel-cli and babel-preset-es2015  
+```npm
+$ npm i
+```
+
+# File structure
+
 The project contains the following files:
 
-```
+*package.json*
+```json
 {
     "name": "es-babel-startup",
     "version": "0.0.1",
