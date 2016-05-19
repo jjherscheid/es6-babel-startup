@@ -1,28 +1,39 @@
 # es6-babel-startup
 
-This repository contains a simple set of files for starting up with Babel.
-
-It can be used to check how Babel works and play with it.
-
+This repository contains a simple set of files for starting up with Babel.  
+It can be used to check how Babel works and play with it.  
 Have fun!
 
 # Setup
 
 Clone the repository using Git clone  
-```git
+```
 $ git clone https://github.com/jjherscheid/es6-babel-startup.git
 ```
 
 Run Npm install, this will install babel-cli and babel-preset-es2015  
-```npm
+```
 $ npm i
 ```
+
+Run the babel build process using npm  
+```
+$ npm run build
+```
+The src/dog.js file will be converted to the lib/dog.js file.
 
 # File structure
 
 The project contains the following files:
 
-*package.json*
+```
+|- src 
+|   |- dog.js
+|
+|- package.json
+```
+
+*package.json* explanation
 ```js
 {
     "name": "es-babel-startup",
