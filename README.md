@@ -23,7 +23,7 @@ $ npm i
 The project contains the following files:
 
 *package.json*
-```json
+```js
 {
     "name": "es-babel-startup",
     "version": "0.0.1",
