@@ -32,6 +32,7 @@ The project contains the following files:
 |
 |- package.json
 |- jsconfig.json
+|- index.html
 ```
 
 *jsconfig.json* explanation
