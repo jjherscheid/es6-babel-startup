@@ -70,7 +70,7 @@ The project contains the following files:
     // Npm script for running babel using
     // $ npm run build.
     "scripts": {
-        "build": "babel src -d lib"
+        "build": "babel src -d lib --source-maps"
     },
     // Babel configuration to specify what
     // target type should be used by Babel.
