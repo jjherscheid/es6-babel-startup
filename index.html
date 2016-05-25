@@ -1,8 +1,15 @@
 <html>
     <head>
-        <script src="lib/dog.js"></script>
     </head>
     <body>
+        <h2>
         Babel Example
+        </h2>
+        <script src="/node_modules/systemjs/dist/system.src.js"></script>
+        <script>
+            System.defaultJSExtensions = true;
+            System.import('/lib/dog')
+                .then(null, console.error.bind(console));
+        </script>
     </body>
 </html>
