@@ -1,5 +1,4 @@
 
-// Without Arrow function
 function Person() {
     this.age = 0;
     
