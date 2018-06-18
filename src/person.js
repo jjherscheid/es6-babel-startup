@@ -2,9 +2,10 @@
 // Without Arrow function
 function Person() {
     this.age = 0;
+    
     // Simulation. 2 second is one year!!
     setInterval(function growUp() {
-        self.age++;
+        this.age++;
     }, 2000);
 }
 
